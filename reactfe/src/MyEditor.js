@@ -90,7 +90,7 @@ class RichEditorExample extends React.Component {
             handleKeyCommand={this.handleKeyCommand}
             keyBindingFn={this.mapKeyToEditorCommand}
             onChange={this.onChange}
-            placeholder="Tell a story..."
+            placeholder="enter text here"
             ref={(ref) => this.editor = ref}
             spellCheck={true}
           />
