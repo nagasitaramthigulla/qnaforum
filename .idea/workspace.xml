@@ -2,17 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70662289-b2cb-466e-8c91-e6413c3d0324" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qnaproject/prodsettings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qna/appurls.py" afterPath="$PROJECT_DIR$/qna/appurls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qna/appviews/userviews.py" afterPath="$PROJECT_DIR$/qna/appviews/userviews.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qnaproject/settings.py" afterPath="$PROJECT_DIR$/qnaproject/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qnaproject/urls.py" afterPath="$PROJECT_DIR$/qnaproject/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactfe/package-lock.json" afterPath="$PROJECT_DIR$/reactfe/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactfe/package.json" afterPath="$PROJECT_DIR$/reactfe/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactfe/src/App.js" afterPath="$PROJECT_DIR$/reactfe/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qnaproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qnaproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/css/main.c17080f1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/css/main.c17080f1.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/media/logo.5d5d9eef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bundles/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/static/js/main.9845214a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bundles/static/js/main.9845214a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qna/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/qna/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactfe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/reactfe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactfe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/reactfe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bundles/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/bundles/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bundles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/bundles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bundles/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bundles/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-tweaks.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-tweaks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/font-awesome-4.0.3.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/font-awesome-4.0.3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/css/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/highlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/css/highlight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/jquery.json-view.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/css/jquery.json-view.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/js/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/js/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery.json-view.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery.json-view.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/ajax-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/ajax-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/coreapi-0.1.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/coreapi-0.1.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/csrf.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/csrf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/prettify-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/rest_framework/js/prettify-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-stats.prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-stats.prod.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +167,7 @@
         <entry file="file://$PROJECT_DIR$/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding />
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -36,9 +175,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reactfe/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -46,9 +184,8 @@
       <file leaf-file-name="MyEditor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reactfe/src/MyEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -56,19 +193,35 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qna/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="69">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
-                <element signature="e#300#670#0" expanded="false" />
-                <element signature="e#1876#2778#0" expanded="false" />
-                <element signature="e#2810#2934#0" expanded="false" />
-                <element signature="e#2964#3083#0" expanded="false" />
-                <element signature="e#3119#3244#0" expanded="false" />
-                <element signature="e#3279#3521#0" expanded="false" />
-                <element signature="e#3557#3614#0" expanded="false" />
-                <element signature="e#3652#3713#0" expanded="false" />
+                <element signature="e#2810#2934#0" />
+                <element signature="e#2964#3083#0" />
+                <element signature="e#3119#3244#0" />
+                <element signature="e#3279#3521#0" />
+                <element signature="e#3557#3614#0" />
+                <element signature="e#3652#3713#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qna/views/questions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generics.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/rest_framework/generics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="191" selection-start-line="191" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -76,9 +229,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reactfe/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="34730" lean-forward="false" selection-start-line="0" selection-start-column="34730" selection-end-line="0" selection-end-column="34730" />
-              <folding />
+            <state relative-caret-position="578">
+              <caret column="34730" selection-start-column="34730" selection-end-column="34730" />
             </state>
           </provider>
         </entry>
@@ -87,18 +239,7 @@
         <entry file="file://$PROJECT_DIR$/qnaproject/prodsettings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paths.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reactfe/config/paths.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-              <folding />
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -106,19 +247,8 @@
       <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reactfe/config/webpack.config.prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="247" column="84" lean-forward="false" selection-start-line="247" selection-start-column="84" selection-end-line="247" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/bundles/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="136" lean-forward="false" selection-start-line="0" selection-start-column="136" selection-end-line="0" selection-end-column="136" />
-              <folding />
+            <state relative-caret-position="4199">
+              <caret line="247" column="84" selection-start-line="247" selection-start-column="84" selection-end-line="247" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -126,9 +256,8 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -170,7 +299,6 @@
         <option value="$PROJECT_DIR$/qna/views/questions.py" />
         <option value="$PROJECT_DIR$/qna/views/answers.py" />
         <option value="$PROJECT_DIR$/qna/urls.py" />
-        <option value="$PROJECT_DIR$/qna/models.py" />
         <option value="$PROJECT_DIR$/qna/views/serializers.py" />
         <option value="$PROJECT_DIR$/.ebextensions/django.config" />
         <option value="$PROJECT_DIR$/.ebextensions/db-migrate.config" />
@@ -194,6 +322,7 @@
         <option value="$PROJECT_DIR$/reactfe/src/App.js" />
         <option value="$PROJECT_DIR$/reactfe/src/MyEditor.js" />
         <option value="$PROJECT_DIR$/reactfe/src/main.css" />
+        <option value="$PROJECT_DIR$/qna/models.py" />
       </list>
     </option>
   </component>
@@ -223,50 +352,46 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="qnaproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qnaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="qnaforum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qnaforum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qnaproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qnaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="qnaforum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qnaforum" type="462c0819:PsiDirectoryNode" />
               <item name="qna" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qnaproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qnaproject" type="462c0819:PsiDirectoryNode" />
-              <item name="qnaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="qnaforum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qnaforum" type="462c0819:PsiDirectoryNode" />
+              <item name="qna" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qnaforum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qnaforum" type="462c0819:PsiDirectoryNode" />
+              <item name="qna" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/projects/appstrack/finalproject/qnaproject/qna/appurls.py" />
+    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Envs/myenv/Include" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -280,8 +405,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="qnaproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -292,15 +418,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="qnaproject" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver 0:81" />
+      <option name="PARAMETERS" value="runserver 0:90" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -313,47 +439,47 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.400982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15729167" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" x="0" y="330" width="1920" height="379" id="Terminal" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.39915523" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" visible="true" weight="0.39915523" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.400982" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15733737" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.400982" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289689" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -361,6 +487,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qna/views/questions.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -371,7 +504,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="10548">
@@ -380,6 +513,7 @@
       </configuration>
       <configuration name="PythonConfigurationType">
         <watch expression="response.render()" language="Python" />
+        <watch expression="question" language="Python" />
       </configuration>
       <configuration name="12236">
         <watch expression="serializer" language="Python" />
@@ -388,18 +522,25 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>question</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/rest_framework/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-425" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/rest_framework/metadata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-850">
-          <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -407,58 +548,36 @@
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1921">
-          <caret line="170" column="8" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qna/views/questions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="94" column="7" lean-forward="false" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+          <caret line="170" column="8" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/views/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="24" column="160" lean-forward="false" selection-start-line="24" selection-start-column="160" selection-end-line="24" selection-end-column="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/rest_framework/generics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="185" column="6" lean-forward="false" selection-start-line="185" selection-start-column="6" selection-end-line="185" selection-end-column="6" />
+          <caret line="24" column="160" selection-start-line="24" selection-start-column="160" selection-end-line="24" selection-end-column="160" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/rest_framework_jwt/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/views/answers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
-          <caret line="82" column="7" lean-forward="false" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.ebextensions/django.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -470,28 +589,22 @@
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1055">
-          <caret line="201" column="0" lean-forward="true" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../onlineclassroom/onlineapp/onlineappviews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../onlineclassroom/onlineapp/onlineappviews.py" />
     <entry file="file://$PROJECT_DIR$/.ebextensions/db-migrate.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/contrib/admin/sites.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="397" column="21" lean-forward="false" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
+          <caret line="397" column="21" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -503,255 +616,228 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/contrib/auth/templates/registration/password_reset_subject.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="54" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="54" />
+          <caret line="2" column="54" lean-forward="true" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
-          <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../onlineclassroom/onlineapp/views/authview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-755">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../onlineclassroom/onlineapp/views/authview.py" />
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/views/generic/edit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/views/generic/detail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../onlineclassroom/onlineapp/views/collegeview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../onlineclassroom/onlineapp/views/collegeview.py" />
     <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/django/contrib/auth/mixins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/appviews/userviews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-109">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/views/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/userprofile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Microsoft/Windows/INetCache/IE/EYPXCEVX/fabfile[1].py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Microsoft/Windows/INetCache/IE/EYPXCEVX/fabfile[1].py" />
     <entry file="file://$PROJECT_DIR$/reactfe/package.json" />
     <entry file="file://$PROJECT_DIR$/reactfe/.gitignore" />
     <entry file="file://$PROJECT_DIR$/qnaproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reactfe/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
-          <folding />
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reactfe/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="243" column="83" lean-forward="false" selection-start-line="243" selection-start-column="83" selection-end-line="243" selection-end-column="83" />
-          <folding />
+          <caret line="243" column="83" selection-start-line="243" selection-start-column="83" selection-end-line="243" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/appurls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qnaproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
-          <caret line="151" column="59" lean-forward="false" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
-          <folding />
+          <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reactfe/config/paths.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="935">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reactfe/config/webpack.config.prod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="247" column="84" lean-forward="false" selection-start-line="247" selection-start-column="84" selection-end-line="247" selection-end-column="84" />
-          <folding />
+        <state relative-caret-position="4199">
+          <caret line="247" column="84" selection-start-line="247" selection-start-column="84" selection-end-line="247" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/bundles/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="136" lean-forward="false" selection-start-line="0" selection-start-column="136" selection-end-line="0" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
+        <state>
+          <caret column="136" selection-start-column="136" selection-end-column="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qnaproject/prodsettings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reactfe/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reactfe/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34730" lean-forward="false" selection-start-line="0" selection-start-column="34730" selection-end-line="0" selection-end-column="34730" />
-          <folding />
+        <state relative-caret-position="578">
+          <caret column="34730" selection-start-column="34730" selection-end-column="34730" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reactfe/src/MyEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/myenv/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qna/views/questions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="69">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <element signature="e#300#670#0" expanded="false" />
-            <element signature="e#1876#2778#0" expanded="false" />
-            <element signature="e#2810#2934#0" expanded="false" />
-            <element signature="e#2964#3083#0" expanded="false" />
-            <element signature="e#3119#3244#0" expanded="false" />
-            <element signature="e#3279#3521#0" expanded="false" />
-            <element signature="e#3557#3614#0" expanded="false" />
-            <element signature="e#3652#3713#0" expanded="false" />
+            <element signature="e#2810#2934#0" />
+            <element signature="e#2964#3083#0" />
+            <element signature="e#3119#3244#0" />
+            <element signature="e#3279#3521#0" />
+            <element signature="e#3557#3614#0" />
+            <element signature="e#3652#3713#0" />
           </folding>
         </state>
       </provider>
