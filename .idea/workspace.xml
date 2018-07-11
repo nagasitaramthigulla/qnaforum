@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/qna/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
                 <element signature="e#2810#2934#0" />
@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/qna/views/questions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -296,9 +296,9 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" x="0" y="330" width="1920" height="379" id="Terminal" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.39915523" />
+      <window_info anchor="bottom" x="0" y="330" width="1920" height="379" id="Terminal" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.39915523" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" visible="true" weight="0.39915523" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" visible="true" weight="0.39915523" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -669,14 +669,14 @@
     <entry file="file://$PROJECT_DIR$/qna/views/questions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qna/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
             <element signature="e#2810#2934#0" />
