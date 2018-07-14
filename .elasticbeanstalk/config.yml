@@ -1,6 +1,7 @@
 branch-defaults:
   master:
     environment: qnaforum
+    group_suffix: null
 environment-defaults:
   qnaforum:
     branch: null
