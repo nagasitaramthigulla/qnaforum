@@ -30,7 +30,7 @@ class Question(models.Model):
     upvotes=models.IntegerField(default=0)
     downvotes=models.IntegerField(default=0)
     points=models.IntegerField(default=0)
-    acceptedanswer=models.IntegerField(null=True,default=None)
+    acceptedanswer=models.IntegerField(default=None)
 
     def save(self,*args,**kwargs):
         if not self.id:
