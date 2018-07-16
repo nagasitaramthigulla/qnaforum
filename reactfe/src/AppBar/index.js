@@ -9,13 +9,16 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { createMuiTheme ,MuiThemeProvider } from '@material-ui/core/styles';
 import teal from '@material-ui/core/colors/teal';
-import deepOrange from '@material-ui/core/colors/deepOrange';
+import pink from '@material-ui/core/colors/pink';
 
-const theme = createMuiTheme({
+export const theme = createMuiTheme({
     palette: {
         primary: teal,
-        secondary: deepOrange,
+        secondary: pink,
     },
+    spacing:{
+        unit:200,
+    }
 });
 const styles = {
     root: {

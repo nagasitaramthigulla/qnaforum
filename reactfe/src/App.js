@@ -1,29 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import RicTextEditorExample from './MyEditor.js';
-import LoginScreen from './login';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-// Needed for onTouchTap
-// http://stackoverflow.com/a/34015469/988941
-injectTapEventPlugin();
+import React from 'react';
+import {BrowserRouter as Router, Route,withRouter} from 'react-router-dom';
+import Apputil from './Apputil';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">Welcome to React</h1>
-                </header>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
-                <RicTextEditorExample/>
-                <LoginScreen/>
+export default class extends React.Component {
+    render(){
+        return(
+            <div>
+                <Router>
+                    <Route component={Apputil}/>
+                </Router>
             </div>
-        );
+        )
     }
 }
-
-export default App;

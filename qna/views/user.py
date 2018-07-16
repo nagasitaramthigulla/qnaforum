@@ -1,4 +1,4 @@
-from django.contrib.auth.models import User
+import django.contrib.auth.models
 from rest_framework.permissions import IsAuthenticated,IsAuthenticatedOrReadOnly
 
 from . import serializers
@@ -6,9 +6,54 @@ from rest_framework.generics import CreateAPIView,RetrieveUpdateDestroyAPIView,R
 from rest_framework.response import Response
 from rest_framework import status
 from qna import models
-from rest_framework_jwt.views import obtain_jwt_token
+from rest_framework_jwt.views import ObtainJSONWebToken,jwt_response_payload_handler,RefreshJSONWebToken
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
+
+from rest_framework_jwt.settings import api_settings
+from datetime import datetime
+
+class JWTAuth(ObtainJSONWebToken):
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+
+        if serializer.is_valid():
+            user = serializer.object.get('user') or request.user
+            token = serializer.object.get('token')
+            response_data = jwt_response_payload_handler(token, user, request)
+            response = Response(response_data)
+            if api_settings.JWT_AUTH_COOKIE:
+                expiration = (datetime.utcnow() +
+                              api_settings.JWT_EXPIRATION_DELTA)
+                response.set_cookie(api_settings.JWT_AUTH_COOKIE,
+                                    token,
+                                    expires=expiration,
+                                    httponly=False)
+            return response
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+obtain_jwt_token=JWTAuth.as_view()
+
+class RefreshJWT(RefreshJSONWebToken):
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+
+        if serializer.is_valid():
+            user = serializer.object.get('user') or request.user
+            token = serializer.object.get('token')
+            response_data = jwt_response_payload_handler(token, user, request)
+            response = Response(response_data)
+            if api_settings.JWT_AUTH_COOKIE:
+                expiration = (datetime.utcnow() +
+                              api_settings.JWT_EXPIRATION_DELTA)
+                response.set_cookie(api_settings.JWT_AUTH_COOKIE,
+                                    token,
+                                    expires=expiration,
+                                    httponly=False)
+            return response
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class SignUp(CreateAPIView):
     serializer_class=serializers.UserSerializer
@@ -16,7 +61,7 @@ class SignUp(CreateAPIView):
         try:
             serializer=serializers.UserSerializer(data=request.data)
             serializer.is_valid(raise_exception=True)
-            user=User.objects.create_user(**serializer.validated_data)
+            user=django.contrib.auth.models.User.objects.create_user(**serializer.validated_data)
             user.save()
             profile=models.UserProfile(user=user)
             profile.save()
@@ -37,7 +82,7 @@ class UserPermission(IsAuthenticated):
 
 class ManageUser(RetrieveUpdateDestroyAPIView):
     serializer_class = serializers.UserSerializer
-    queryset = User.objects.all()
+    queryset = django.contrib.auth.models.User.objects.all()
     permission_classes = ((IsAuthenticated,))
     authentication_classes = ((JSONWebTokenAuthentication,))
     def check_object_permissions(self, request, obj):

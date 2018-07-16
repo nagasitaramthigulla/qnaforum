@@ -42,18 +42,22 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'webpack_loader',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+CORS_ORIGIN_WHITELIST = (
+    'localhost:3000',
+)
 ROOT_URLCONF = 'qnaproject.urls'
 
 TEMPLATES = [
@@ -138,7 +142,7 @@ USE_TZ = True
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(hours=1),
     'JWT_ALLOW_REFRESH': True,
-    'JWT_AUTH_COOKIE': 'JWT_TOKEN',
+    'JWT_AUTH_COOKIE': 'token'
 }
 
 REST_FRAMEWORK = {

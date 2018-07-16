@@ -7,7 +7,7 @@ urlpatterns=[
     path(r'api-token-auth/',user.obtain_jwt_token),
     path(r'user-manage/<int:pk>/',user.ManageUser.as_view()),
     path(r'user/<int:pk>/',user.GetUserProfile.as_view()),
-    path(r'api-token-refresh/',refresh_jwt_token),
+    path(r'api-token-refresh/',user.RefreshJWT.as_view()),
 
     path(r'add-question/',questions.AddQuestion.as_view()),
     path(r'question-tag/<tag>/',questions.GetQuestionsBasedOnTags.as_view()),
