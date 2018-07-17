@@ -5,8 +5,7 @@ import RicTextEditorExample from './MyEditor.js';
 import LoginScreen from './login';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import {Cookies} from 'react-cookie';
-import {BrowserRouter as Router, Route,withRouter} from 'react-router-dom';
-import {Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route,withRouter,Redirect} from 'react-router-dom';
 import Home from './app/home';
 import axios from 'axios';
 // Needed for onTouchTap
@@ -22,6 +21,7 @@ class Apputil extends Component {
     }
 
     componentDidMount(){
+        console.log(window.location.href);
         var self = this;
         console.log(this.state.token);
         if(this.state.token!=null)
@@ -45,15 +45,21 @@ class Apputil extends Component {
                 console.log(error);
             });
         }
+        else{
+            this.setState({
+                token:null,
+                login:false,
+            })
+        }
     }
     render() {
         return (
             <div className="App">
-                {this.state.login?"":<Redirect to={{pathname:"/login"}}/>}
                 <Router>
                     <div>
                         <Route exact path="/login" component={LoginScreen}/>
                         <Route exact path="/" component={Home}/>
+                        <Route exact path="/search/:tag" component={Home}/>
                     </div>
                 </Router>
             </div>
@@ -61,4 +67,4 @@ class Apputil extends Component {
     }
 }
 
-export default withRouter(Apputil);
+export default Apputil;

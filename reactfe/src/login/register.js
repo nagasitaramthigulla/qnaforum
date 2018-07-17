@@ -64,7 +64,7 @@ class Register extends React.Component{
             "last_name":this.state.last_name,
             "first_name":this.state.first_name
         }
-        console.log(payload);
+
         axios.post(apiBaseUrl+'api-signup-view/',payload)
             .then(function (response) {
                 console.log(response);

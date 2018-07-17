@@ -5,11 +5,7 @@ import Apputil from './Apputil';
 export default class extends React.Component {
     render(){
         return(
-            <div>
-                <Router>
-                    <Route component={Apputil}/>
-                </Router>
-            </div>
+            <Apputil/>
         )
     }
 }

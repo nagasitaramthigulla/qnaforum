@@ -65,7 +65,7 @@ class Login extends React.Component{
             "username": this.state.username,
             "password": this.state.password
         }
-        console.log(payload);
+
         axios.post(apiBaseUrl+'api-token-auth/',payload)
             .then(function (response) {
                 console.log(response);

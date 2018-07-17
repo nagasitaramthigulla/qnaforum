@@ -16,7 +16,9 @@ import {theme} from "./index";
 import { createMuiTheme ,MuiThemeProvider } from '@material-ui/core/styles';
 import {Redirect} from 'react-router-dom';
 import {Cookies} from 'react-cookie';
-import SearchBar from 'react-search-bar';
+import SearchBar from 'material-ui-search-bar';
+import axios from 'axios';
+
 const styles = {
     root: {
         flexGrow: 1,
@@ -34,6 +36,7 @@ const styles = {
 class MenuAppBar extends React.Component{
     cookies=new Cookies();
     state = {
+        value:"",
         auth: true,
         anchorEl: null,
         redirect:false,
@@ -54,9 +57,28 @@ class MenuAppBar extends React.Component{
         })
     }
     renderredirect=()=>{
+        console.log(this.state.redirect_url);
         if(this.state.redirect)
             return <Redirect to={{pathname:this.state.redirect_url}}/>
     }
+    componentDidMount(){
+        console.log(window.location.href);
+        if(this.cookies.get("token")==undefined||this.cookies.get("token")==null)
+        {
+            this.logout();
+            return;
+        }
+        var {tag}=this.props;
+        if(tag===undefined||tag===null)
+        {
+
+        }
+        else
+        {
+
+        }
+    }
+
     render(){
         const { classes } = this.props;
         const { anchorEl } = this.state;
@@ -72,7 +94,14 @@ class MenuAppBar extends React.Component{
                         <Typography variant="title" color="inherit" className={classes.flex} align="left">
                             QnA Forum
                         </Typography>
-
+                        <SearchBar
+                            value={this.state.value}
+                            onChange={(newValue) => this.setState({ value: newValue })}
+                            onRequestSearch={()=>this.setState({
+                                redirect:true,
+                                redirect_url:'search/'+this.state.value,
+                            })}
+                        />
                         <div>
                             <IconButton
                                 aria-owns={open?'menu-appbar':null}
