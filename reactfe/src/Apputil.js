@@ -8,6 +8,8 @@ import {Cookies} from 'react-cookie';
 import {BrowserRouter as Router, Route,withRouter,Redirect} from 'react-router-dom';
 import Home from './app/home';
 import axios from 'axios';
+import {BrowserRouter} from 'react-router-dom';
+import createHistory from "history/createBrowserHistory"
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
 injectTapEventPlugin();
@@ -27,7 +29,7 @@ class Apputil extends Component {
         if(this.state.token!=null)
         {
             console.log("mount");
-            axios.post('api/api-token-refresh/',{'token':this.state.token}).then(function (response) {
+            axios.post("http://"+window.location.host+'/api/api-token-refresh/',{'token':this.state.token}).then(function (response) {
                 if(response.status==200)
                 {
                     self.setState({
@@ -53,14 +55,14 @@ class Apputil extends Component {
         }
     }
     render() {
-
+        const history=createHistory();
         return (
             <div className="App">
-                <Router>
+                <Router history={history}>
                     <div>
                         <Route exact path="/login" component={LoginScreen}/>
                         <Route exact path="/" component={Home}/>
-                        <Route exact path="/search/:tag" component={Home}/>
+                        <Route  path="/search/:tag" component={Home}/>
                     </div>
                 </Router>
             </div>

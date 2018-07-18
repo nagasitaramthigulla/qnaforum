@@ -45,17 +45,23 @@ class ManageQuestion(RetrieveUpdateDestroyAPIView):
         except Exception as ve:
             return Response({"detail":str(ve)},status=status.HTTP_401_UNAUTHORIZED)
 
+class GetLatestQuestions(ListAPIView):
+    serializer_class = serializers.QuestionSerializer
+    def get_queryset(self):
+        return models.Question.objects.all().order_by('-date')
+
+
 class GetQuestionsBasedOnTags(ListAPIView):
     serializer_class = serializers.QuestionSerializer
 
     def get_queryset(self):
-        return models.Question.objects.all().filter(tags__icontains=self.kwargs['tag'])
+        return models.Question.objects.all().filter(tags__icontains=self.kwargs['tag']).order_by('-date')
 
 class GetQuestionsBasedOnUser(ListAPIView):
     serializer_class = serializers.QuestionSerializer
 
     def get_queryset(self):
-        return  models.Question.objects.all().filter(user__username=self.kwargs['user'])
+        return models.Question.objects.all().filter(user__username=self.kwargs['user'])
 
 class CommentQuestionView(CreateAPIView,ListAPIView):
     serializer_class = serializers.QuestionCommentSerializer

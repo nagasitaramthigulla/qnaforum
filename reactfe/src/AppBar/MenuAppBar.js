@@ -18,6 +18,7 @@ import {Redirect} from 'react-router-dom';
 import {Cookies} from 'react-cookie';
 import SearchBar from 'material-ui-search-bar';
 import axios from 'axios';
+import createHistory from "history/createBrowserHistory"
 
 const styles = {
     root: {
@@ -53,21 +54,33 @@ class MenuAppBar extends React.Component{
         this.cookies.remove('token');
         this.setState({
             redirect:true,
-            redirect_url:"/login",
+            redirect_url:"login",
         })
     }
     renderredirect=()=>{
         console.log(this.state.redirect_url);
-        if(this.state.redirect)
+        if(this.state.redirect){
             return <Redirect to={{pathname:this.state.redirect_url}}/>
+            }
     }
     componentDidMount(){
         console.log(window.location.href);
+
         if(this.cookies.get("token")==undefined||this.cookies.get("token")==null)
         {
             this.logout();
             return;
         }
+    }
+
+    search() {
+        const {history}=this.props;
+        var url = '/search/' + this.state.value;
+        history.push("/");
+        this.setState({
+            redirect:true,
+            redirect_url:url,
+        })
     }
 
     render(){
@@ -77,7 +90,7 @@ class MenuAppBar extends React.Component{
         return(
             <MuiThemeProvider theme={theme} >
                 {this.renderredirect()}
-                <AppBar position="static">
+                <AppBar position="fixed">
                     <Toolbar>
                         <IconButton className={classes.menuButton} color="inherit" arial-label="Menu">
                             <MenuIcon/>
@@ -88,10 +101,7 @@ class MenuAppBar extends React.Component{
                         <SearchBar
                             value={this.state.value}
                             onChange={(newValue) => this.setState({ value: newValue })}
-                            onRequestSearch={()=>this.setState({
-                                redirect:true,
-                                redirect_url:'search/'+this.state.value,
-                            })}
+                            onRequestSearch={()=>{this.search()}}
                         />
                         <div>
                             <IconButton
@@ -122,6 +132,7 @@ class MenuAppBar extends React.Component{
                         </div>
                     </Toolbar>
                 </AppBar>
+                <div style={{height:"70px",width:"100%"}}></div>
             </MuiThemeProvider>
         );
     }
