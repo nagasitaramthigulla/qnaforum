@@ -10,7 +10,7 @@ urlpatterns=[
     path(r'api-token-refresh/',user.RefreshJWT.as_view()),
 
     path(r'add-question/',questions.AddQuestion.as_view()),
-    path(r'question-tag/<tag>/',questions.GetQuestionsBasedOnTags.as_view()),
+    path(r'question/<tag>/',questions.GetQuestionsBasedOnTags.as_view()),
     path(r'question-user/<user>/',questions.GetQuestionsBasedOnUser.as_view()),
     path(r'question-comment/<qid>/',questions.CommentQuestionView.as_view()),
     path(r'question-comments/<qid>/',questions.CommentsForQuestion.as_view()),

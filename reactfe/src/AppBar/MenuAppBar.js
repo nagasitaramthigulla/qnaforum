@@ -68,15 +68,6 @@ class MenuAppBar extends React.Component{
             this.logout();
             return;
         }
-        var {tag}=this.props;
-        if(tag===undefined||tag===null)
-        {
-
-        }
-        else
-        {
-
-        }
     }
 
     render(){
