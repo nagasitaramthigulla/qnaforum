@@ -39,6 +39,7 @@ class Home extends React.Component{
     constructor(props){
         super(props);
         this.state={
+            reload:false,
             next:null,
             previous:null,
             response:false,
@@ -111,6 +112,21 @@ class Home extends React.Component{
         if(this.state.previous===this.state.next)
             return <div></div>;
         return <div className={classes.div}>{btns}</div>
+    }
+
+    componentDidUpdate(){
+        if(this.props.match.params==true)
+        {
+            this.props.match.params=false;
+            var {tag}=this.props.match.params;
+            var url=window.location.protocol+'//'+window.location.host+"/api/question/";
+            console.log("Tag:"+tag);
+            //return;
+            if(tag!==undefined&&tag!==null)
+                url=url+tag+'/';
+            console.log("home");
+            this.fetch(url);
+        }
     }
 
     render(){

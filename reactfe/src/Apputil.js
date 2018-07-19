@@ -5,7 +5,7 @@ import RicTextEditorExample from './MyEditor.js';
 import LoginScreen from './login';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import {Cookies} from 'react-cookie';
-import {BrowserRouter as Router, Route,withRouter,Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route,withRouter,Redirect,Switch} from 'react-router-dom';
 import Home from './app/home';
 import axios from 'axios';
 import {BrowserRouter} from 'react-router-dom';
@@ -59,11 +59,12 @@ class Apputil extends Component {
         return (
             <div className="App">
                 <Router history={history}>
-                    <div>
+                    <Switch>
                         <Route exact path="/login" component={LoginScreen}/>
                         <Route exact path="/" component={Home}/>
-                        <Route  path="/search/:tag" component={Home}/>
-                    </div>
+                        <Route exact path="/search/:tag" component={Home}/>
+                        <Redirect exact to="/"/>
+                    </Switch>
                 </Router>
             </div>
         );

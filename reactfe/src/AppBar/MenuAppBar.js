@@ -60,12 +60,14 @@ class MenuAppBar extends React.Component{
     renderredirect=()=>{
         console.log(this.state.redirect_url);
         if(this.state.redirect){
-            return <Redirect to={{pathname:this.state.redirect_url}}/>
+            return <Redirect exact from="/" to={this.state.redirect_url}/>
             }
     }
     componentDidMount(){
         console.log(window.location.href);
-
+        this.setState({
+            redirect:false,
+        })
         if(this.cookies.get("token")==undefined||this.cookies.get("token")==null)
         {
             this.logout();
@@ -76,7 +78,7 @@ class MenuAppBar extends React.Component{
     search() {
         const {history}=this.props;
         var url = '/search/' + this.state.value;
-        history.push("/");
+        //history.push("/");
         this.setState({
             redirect:true,
             redirect_url:url,
@@ -100,7 +102,7 @@ class MenuAppBar extends React.Component{
                         </Typography>
                         <SearchBar
                             value={this.state.value}
-                            onChange={(newValue) => this.setState({ value: newValue })}
+                            onChange={(newValue) => this.setState({ value: newValue,redirect:false })}
                             onRequestSearch={()=>{this.search()}}
                         />
                         <div>
