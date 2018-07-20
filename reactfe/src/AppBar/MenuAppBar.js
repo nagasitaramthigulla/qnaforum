@@ -59,8 +59,10 @@ class MenuAppBar extends React.Component{
     }
     renderredirect=()=>{
         console.log(this.state.redirect_url);
+        var cookies=new Cookies();
+        cookies.set("redirect_url",this.state.redirect_url);
         if(this.state.redirect){
-            return <Redirect exact from="/" to={this.state.redirect_url}/>
+            return <Redirect exact from="/" to={{pathname:"/redirect"}}/>
             }
     }
     componentDidMount(){
@@ -78,7 +80,7 @@ class MenuAppBar extends React.Component{
     search() {
         const {history}=this.props;
         var url = '/search/' + this.state.value;
-        //history.push("/");
+        history.push(url);
         this.setState({
             redirect:true,
             redirect_url:url,

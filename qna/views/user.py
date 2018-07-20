@@ -105,3 +105,14 @@ class ManageUser(RetrieveUpdateDestroyAPIView):
 class GetUserProfile(RetrieveAPIView):
     serializer_class = serializers.UserProfileSerializer
     queryset = models.UserProfile.objects.all()
+
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(instance)
+        data=serializer.data
+        data["questions"]=models.Question.objects.filter(user=data["user"]["id"]).count()
+        data["answers"]=models.Answer.objects.filter(user=data["user"]["id"]).count()
+        data["current"]=False
+        if request.user.id==data["user"]["id"]:
+            data["current"]=True
+        return Response(data)

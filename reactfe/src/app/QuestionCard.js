@@ -6,8 +6,11 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import axios from "axios";
+import {Cookies} from 'react-cookie';
+import {withRouter,Link,Redirect,NavLink} from 'react-router-dom';
 
-const styles = {
+export const styles = {
     card: {
         minWidth: 200,
         marginTop:20,
@@ -29,7 +32,7 @@ const styles = {
     },
 };
 
-function datediff(data){
+export function datediff(data){
     var past=new Date(data);
     var today=new Date();
     var diff=parseInt((today-past)/1000);
@@ -58,34 +61,62 @@ function datediff(data){
     return ""+diff+" years";
 }
 
-function  QuestionCard(props){
-    const {classes}=props;
-    const {data}=props;
-    const bull = <span className={classes.bullet}>•</span>;
-    return(
-        <div>
-            <Card className={classes.card}>
-                <CardContent>
-                    <Typography variant="headline" component="h2" align="left">
-                        {bull}{data.title}
-                    </Typography>
-                    <Typography component="p" align="left">
-                        {data.description}
-                    </Typography>
-                    <Typography component="p" align="right">
-                        asked {datediff(data.date)} ago
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button size="small" color="secondary">view</Button>
-                </CardActions>
-            </Card>
-        </div>
-    );
+class  QuestionCard extends React.Component {
+
+    state = {
+        redirect: false
+    }
+
+    renderredirect() {
+        if (this.state.redirect === true) {
+            var cookies = new Cookies();
+            cookies.set("redirect_url", "/question/" + this.props.data.id);
+            return <Redirect exact from="/" to={{pathname: "/redirect"}}/>
+        }
+    }
+
+    componentDidMount() {
+
+    }
+
+    componentWillUpdate() {
+
+    }
+
+    render() {
+        const {classes} = this.props;
+        const {data} = this.props;
+        const bull = <span className={classes.bullet}>•</span>;
+        return (
+            <div>
+                {this.renderredirect()}
+                <Card className={classes.card}>
+                    <CardContent>
+                        <Typography variant="headline" component="h2" align="left">
+                            {bull}{data.title}
+                        </Typography>
+                        <Typography component="p" align="left">
+                            {data.description}
+                        </Typography>
+                        <Typography component="p" align="right">
+                            asked {datediff(data.date)} ago<br/>
+                            <Link to={"/user/" + data.user.id}>{data.user.username}</Link>
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small" color="secondary" onClick={() => {
+                            console.log("redirect");
+                            this.setState({redirect: true})
+                        }}>view</Button>
+                    </CardActions>
+                </Card>
+            </div>
+        );
+    }
 }
 
 QuestionCard.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(QuestionCard);
+export default withRouter(withStyles(styles)(QuestionCard));

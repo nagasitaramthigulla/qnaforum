@@ -10,6 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 import classNames from 'classnames';
 import {MuiThemeProvider} from '@material-ui/core/styles';
 import {theme} from '../AppBar';
+import {withRouter} from 'react-router-dom';
 
 const styles = theme => ({
     button: {
@@ -78,7 +79,7 @@ class Home extends React.Component{
         let questions=[];
         for(var i=0;i<this.state.questions.length;i++)
         {
-            questions.push(<QuestionCard data={this.state.questions[i]}/>);
+            questions.push(<QuestionCard key={i} data={this.state.questions[i]}/>);
         }
         console.log(questions);
         return <div>{questions}</div>;
@@ -88,7 +89,7 @@ class Home extends React.Component{
         const {classes} = props;
         var btns = [];
         if (this.state.previous !== null) {
-            btns.push(<div style={{width:"50%",float:"left", height:"55px"}} align="left"><Button variant="contained" color="primary" className={classes.button} onClick={() => {
+            btns.push(<div style={{width:"50%",float:"left", height:"55px"}} align="left"><Button variant="contained" color="secondary" className={classes.button} onClick={() => {
                 this.fetch(this.state.previous)
             }}>
                 <NavigateBefore className={classNames(classes.leftIcon, classes.iconSmall)}/>
@@ -99,7 +100,7 @@ class Home extends React.Component{
             btns.push(<div style={{width:"50%",float:"left", height:"55px"}} align="left"></div>)
         }
         if (this.state.next !== null) {
-            btns.push(<div style={{width:"50%",float:"right", height:"55px"}} align="right"><Button align="right" variant="contained" color="primary" className={classes.button} onClick={() => {
+            btns.push(<div style={{width:"50%",float:"right", height:"55px"}} align="right"><Button align="right" variant="contained" color="secondary" className={classes.button} onClick={() => {
                 this.fetch(this.state.next)
             }}>
                 next
@@ -114,10 +115,12 @@ class Home extends React.Component{
         return <div className={classes.div}>{btns}</div>
     }
 
-    componentDidUpdate(){
-        if(this.props.match.params==true)
+
+
+    componentWillReceiveProps(){
+        console.log("component updated:");
+        if(this.props.reload==true)
         {
-            this.props.match.params=false;
             var {tag}=this.props.match.params;
             var url=window.location.protocol+'//'+window.location.host+"/api/question/";
             console.log("Tag:"+tag);
@@ -150,4 +153,4 @@ Home.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Home);
+export default withRouter(withStyles(styles)(Home));

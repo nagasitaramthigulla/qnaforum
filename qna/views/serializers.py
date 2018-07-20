@@ -17,7 +17,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
         fields=('points','user')
 
 class QuestionSerializer(serializers.ModelSerializer):
-    user=serializers.PrimaryKeyRelatedField(read_only=True)
+    user=UserSerializer()
     tags=serializers.ListField()
     class Meta:
         model=Question

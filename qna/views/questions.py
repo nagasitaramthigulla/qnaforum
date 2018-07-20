@@ -1,5 +1,5 @@
 from rest_framework import status
-from rest_framework.generics import CreateAPIView, RetrieveUpdateDestroyAPIView, ListAPIView
+from rest_framework.generics import CreateAPIView, RetrieveUpdateDestroyAPIView, ListAPIView,RetrieveAPIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
@@ -25,6 +25,16 @@ class AddQuestion(CreateAPIView):
         except Exception as ve:
             return Response({"detail":str(ve)},status=status.HTTP_401_UNAUTHORIZED)
             pass
+
+class GetQuestion(RetrieveAPIView):
+    serializer_class = serializers.QuestionSerializer
+    queryset = models.Question.objects.all()
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(instance)
+        data=serializer.data
+        data["comments"]=models.CommentQuestion.objects.filter(question__id=data["id"]).count()
+        return Response(data)
 
 class ManageQuestion(RetrieveUpdateDestroyAPIView):
     serializer_class = serializers.QuestionSerializer

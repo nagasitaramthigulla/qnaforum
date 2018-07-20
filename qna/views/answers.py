@@ -20,7 +20,7 @@ class AddAnswer(CreateAPIView):
             question=models.Question.objects.get(id=kwargs['qid'])
             if question.closed:
                 raise Exception('Question is closed')
-            answer=serializer.save(commit=False)
+            answer=models.Answer(**serializer.validated_data)
             answer.user=user
             answer.question=question
             answer.save()

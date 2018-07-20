@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route,withRouter} from 'react-router-dom';
+import {Router, Route,withRouter} from 'react-router-dom';
 import Apputil from './Apputil';
 
 export default class extends React.Component {

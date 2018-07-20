@@ -8,13 +8,18 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { createMuiTheme ,MuiThemeProvider } from '@material-ui/core/styles';
-import teal from '@material-ui/core/colors/teal';
+import purple from '@material-ui/core/colors/purple';
 import pink from '@material-ui/core/colors/pink';
 
 export const theme = createMuiTheme({
     palette: {
-        primary: teal,
+        primary: {
+            main: '#F44336',
+        },
         secondary: pink,
+        inherit:{
+            main:'#92a79d',
+        },
     },
     spacing:{
         unit:200,

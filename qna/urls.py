@@ -11,6 +11,8 @@ urlpatterns=[
 
     path(r'add-question/',questions.AddQuestion.as_view()),
     path(r'question/',questions.GetLatestQuestions.as_view()),
+    path(r'managequestion/<int:pk>/',questions.ManageQuestion.as_view()),
+    path(r'getquestion/<int:pk>/',questions.GetQuestion.as_view()),
     path(r'question/<tag>/',questions.GetQuestionsBasedOnTags.as_view()),
     path(r'question-user/<user>/',questions.GetQuestionsBasedOnUser.as_view()),
     path(r'question-comment/<qid>/',questions.CommentQuestionView.as_view()),
