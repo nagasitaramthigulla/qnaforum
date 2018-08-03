@@ -78,9 +78,9 @@ class MenuAppBar extends React.Component{
     }
 
     search() {
-        const {history}=this.props;
+        //const {history}=this.props;
         var url = '/search/' + this.state.value;
-        history.push(url);
+        //history.push(url);
         this.setState({
             redirect:true,
             redirect_url:url,
