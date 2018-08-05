@@ -22,6 +22,6 @@ urlpatterns=[
     path(r'add-answer/<qid>/',answers.AddAnswer.as_view()),
     path(r'answers-question/<qid>/',answers.GetAnswersForQuestion.as_view()),
     path(r'answer-comment/<qid>/',answers.CommentAnswerView.as_view()),
-    path(r'anwer-comments/<qid>/',answers.CommentsForAnswer.as_view()),
+    path(r'answer-comments/<qid>/',answers.CommentsForAnswer.as_view()),
     path(r'vote-answer/<qid>/',answers.VoteAnswer.as_view()),
 ]

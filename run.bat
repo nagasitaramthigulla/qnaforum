@@ -5,9 +5,9 @@ IF %argC% == 0 (
     GOTO FLAG
 )
 IF %1 == prod (
-    python manage.py runserver 0:80
+    python manage.py runserver 0:80 --settings qnaproject.prodsettings
 )ELSE IF %1 == dev (
-    python manage.py runserver 0:80 --settings qnaproject.settings
+    python manage.py runserver 0:80 
 )ELSE IF %1 == cs (
     python manage.py collectstatic
 )ELSE (

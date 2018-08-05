@@ -7,18 +7,13 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
-import Switch from '@material-ui/core/Switch';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormGroup from '@material-ui/core/FormGroup';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import {theme} from "./index";
-import { createMuiTheme ,MuiThemeProvider } from '@material-ui/core/styles';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 import {Redirect} from 'react-router-dom';
 import {Cookies} from 'react-cookie';
 import SearchBar from 'material-ui-search-bar';
-import axios from 'axios';
-import createHistory from "history/createBrowserHistory"
 
 const styles = {
     root: {
@@ -70,7 +65,7 @@ class MenuAppBar extends React.Component{
         this.setState({
             redirect:false,
         })
-        if(this.cookies.get("token")==undefined||this.cookies.get("token")==null)
+        if(this.cookies.get("token")===undefined||this.cookies.get("token")===null)
         {
             this.logout();
             return;
@@ -85,6 +80,14 @@ class MenuAppBar extends React.Component{
             redirect:true,
             redirect_url:url,
         })
+    }
+
+    myProfile(){
+        this.handleClose();
+        this.setState({
+            redirect:true,
+            redirect_url:"/myprofile",
+        });
     }
 
     render(){

@@ -6,9 +6,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import axios from "axios";
 import {Cookies} from 'react-cookie';
-import {withRouter,Link,Redirect,NavLink} from 'react-router-dom';
+import {withRouter,Link,Redirect} from 'react-router-dom';
 
 export const styles = {
     card: {

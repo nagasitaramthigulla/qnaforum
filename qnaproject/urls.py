@@ -20,8 +20,10 @@ from django.urls.conf import include
 
 from qna import urls
 from django.views.generic import TemplateView
+from qna.views import urlsview
 
 urlpatterns = [
+    path('urls/',urlsview.all_urls_view),
     path('admin/', admin.site.urls),
     url(r'api/',include(('qna.urls','qna'),namespace='qna')),
     url(r'^',TemplateView.as_view(template_name="index.html")),
