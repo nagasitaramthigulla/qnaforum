@@ -1,9 +1,10 @@
-awsebcli==3.14.2
-botocore==1.10.52
+awsebcli==3.14.6
+botocore==1.12.9
 cement==2.8.2
 colorama==0.3.9
 Django==2.0.6
 django-annoying==0.10.4
+django-cors-headers==2.4.0
 django-mysql==2.3.0
 django-rest-framework==0.1.0
 django-taggit==0.22.2
@@ -23,3 +24,4 @@ semantic-version==2.5.0
 six==1.11.0
 tabulate==0.7.5
 termcolor==1.1.0
+urllib3==1.22
